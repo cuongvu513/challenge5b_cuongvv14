@@ -1,0 +1,47 @@
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+
+# Dependencies
+/node_modules
+/vendor
+
+# Build output
+/public/build
+/public/hot
+/public/storage
+
+# Storage
+/storage/*.key
+/storage/pail
+
+# Docker
+Dockerfile
+docker-compose.yml
+docker/
+.dockerignore
+.env.docker
+
+# Database dumps
+*.sql
+database/*.sql
+
+# OS files
+Homestead.json
+Homestead.yaml
